@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "WindCreek";
+    src: url(fonts/wind_creek/WIND\ CREEK\ Italic.ttf);
+}
+
+body {
+    width: 1250px;
+    text-align: center;
+    background: url(https://wallpaperaccess.com/full/7888814.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "WindCreek";
+    font-size: 100px;
+    margin-top: -20px;
+    color: white;
+    margin-right: 50px;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px; /* Isompi väli sarakkeiden välille */
+}
+
+textarea {
+    width: 325px;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+}
+
+form {
+    text-align: center;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    width: 30%;
+    margin-left: 440px;
+    height: 575px;
+    margin-top: -30px;
+    background-color: black;
+}
+
+#laheta {
+    width: 93%;
+    cursor: pointer;
+}
+
+#viesti {
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 5px;
+}
+
+#viesti, #onnistui {
+    position: relative;
+    color: white;
+    display: none;
+    margin-top: 5px;
+}
+
+#viesti, #varoitus {
+    position: relative;
+    color: white;
+    display: none;
+    margin-top: 5px;
+}
+
+#home {
+    float: left;
+    margin-top: 20px;
+}
+
+#lomake p{
+    color: white;
+    margin-top: 4px;
+}

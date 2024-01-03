@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "WindCreek";
+    src: url(fonts/wind_creek/WIND\ CREEK\ Italic.ttf);
+}
+
+body {
+    width: 1250px;
+    background-color: black;
+    background: url(https://ethos3.com/wp-content/uploads/2017/12/own-the-stage.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+#Header {
+    text-align: center;
+    font-family: "WindCreek";
+    font-size: 50px;
+    margin-top: -100px;
+    color:white;
+}
+
+#biisit {
+    color: white;
+    text-align: center;
+}

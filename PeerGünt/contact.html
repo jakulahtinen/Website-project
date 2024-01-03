@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="contact.css" media="screen" type="text/css">
+        <script src="PeerGunt.js"></script>
+    </head>
+
+    <body>
+        <div id="content">
+            <a id="home" href="PeerGunt.html"><img src="https://i.pinimg.com/236x/c6/13/26/c61326bd7bc54252c2a53ea6e683745f.jpg" alt="homeicon" width="40px"height="40px"></a>
+            <div>
+                <h1>Contact!</h1>
+            </div>
+            <div id="lomake">
+                <form>
+                    <br>
+                    <label for="fname">Etunimi</label>
+                    <br>
+                    <input type="text" id="fname" name="etunimi" placeholder="Etunimi...">
+                    <br>
+                    <label for="lname">Sukunimi</label>
+                    <br>
+                    <input type="text" id="lname" name="sukunimi" placeholder="Sukunimi...">
+                    <br>
+                    <label for="sposti">Sähköposti</label>
+                    <br>
+                    <input type="text" name="sahkoposti" id="sposti" placeholder="Sähköpostiosoite...">
+                    <br><br>
+                    <label for="aihe">Aihe</label>
+                    <br>
+                    <textarea name="aihe" id="aihe" cols="30" rows="10" placeholder="Kirjoita..." style="height: 160px;"></textarea>
+                    <br>
+                    <div id="button">
+                        <button id="laheta" type="button" onclick="viesti()">Lähetä</button>
+                    </div>
+                    <div id="vastaus">
+                        <p id="palaute"></p>
+                        <div id="onnistui"><p id="1"></p></div>
+                        <div id="varoitus"><p id="2"></p></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
